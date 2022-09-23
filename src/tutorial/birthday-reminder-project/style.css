@@ -1,0 +1,57 @@
+
+/* /////BIRTHDAY PROJECT////////// */
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f28ab2;
+}
+.dataSection{
+  
+    width: 90vw;
+    margin: 5rem 0;
+    max-width: 450px;
+    background: #fff;
+    border-radius: 0.25rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+}
+.innerDiv{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 0.75rem;
+    -webkit-column-gap: 0.75rem;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+
+}
+
+.dataDiv{
+  padding-left: 10px;
+}
+.dataImages{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.birthButton{
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-color: transparent;
+    background: #f28ab2;
+    margin: 2rem auto 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    letter-spacing: .1rem;
+    border-radius: 0.25rem;
+    outline: 1px solid rgba(242,138,178,.8);
+    cursor: pointer;
+}
