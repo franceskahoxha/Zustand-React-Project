@@ -1,8 +1,8 @@
 import React from "react";
-import Name from "./components/Name";
+import People from "./components/Bears";
 
 function App() {
-  return <Name />;
+  return <People />;
 }
 
 export default App;
